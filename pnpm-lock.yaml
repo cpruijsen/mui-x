@@ -312,8 +312,8 @@ catalogs:
       specifier: ^1.52.0
       version: 1.52.0
     execa:
-      specifier: 10.0.1
-      version: 10.0.1
+      specifier: 10.1.0
+      version: 10.1.0
     jscodeshift:
       specifier: 17.4.0
       version: 17.4.0
@@ -556,7 +556,7 @@ importers:
         version: link:packages/eslint-plugin-mui-x
       execa:
         specifier: 'catalog:'
-        version: 10.0.1
+        version: 10.1.0
       globby:
         specifier: 16.2.4
         version: 16.2.4
@@ -1273,7 +1273,7 @@ importers:
         version: 5.0.3
       execa:
         specifier: 'catalog:'
-        version: 10.0.1
+        version: 10.1.0
       rimraf:
         specifier: 'catalog:'
         version: 6.1.3
@@ -7789,8 +7789,8 @@ packages:
     resolution: {integrity: sha512-CRT1WTyuQoD771GW56XEZFQ/ZoSfWid1alKGDYMmkt2yl8UXrVR4pspqWNEcqKvVIzg6PAltWjxcSSPrboA4iA==}
     engines: {node: '>=18.0.0'}
 
-  execa@10.0.1:
-    resolution: {integrity: sha512-ge98qjkRK4IB7tL7Ju/6qmm5LHoH1eEMt5FNZrz3f4UIYhF28lggX20z3FaX1sgc67msLEn0N0BscOs29iuwyw==}
+  execa@10.1.0:
+    resolution: {integrity: sha512-5HT/600HqXEtmkb9mK/PkTWw+bQSCzPnWiZ4/87wD3Hi0wFzCapOuNT9p4M08PDd+KLHdHvFhKjOWmNx/npRNQ==}
     engines: {node: '>=22'}
 
   execa@5.0.0:
@@ -10006,8 +10006,8 @@ packages:
     resolution: {integrity: sha512-Qb1gy5OrP5+zDf2Bvnzdl3jsTf1qXVMazbvCoKhtKqVs4/YK4ozX4gKQJJVyNe+cajNPn0KoC0MC3FUmaHWEmQ==}
     engines: {node: ^10.13.0 || ^12.13.0 || ^14.15.0 || >=15.0.0}
 
-  pretty-ms@9.3.0:
-    resolution: {integrity: sha512-gjVS5hOP+M3wMm5nmNOucbIrqudzs9v/57bWRHQWLYklXqoXKrVfYW2W9+glfGsqtPgpiz5WwyEEB+ksXIx3gQ==}
+  pretty-ms@9.3.1:
+    resolution: {integrity: sha512-HzMy3Geq23nVALD/M2LliU+F+M+gVNsvkQWWqeBZ8HDiCgzo6YPJ/Omrmtq24EFrIsk0a3EkQGEd7bDOo+IhGA==}
     engines: {node: '>=18'}
 
   pretty-quick@4.2.2:
@@ -13734,7 +13734,7 @@ snapshots:
       chalk: 5.6.2
       env-ci: 11.2.0
       es-toolkit: 1.52.0
-      execa: 10.0.1
+      execa: 10.1.0
       react: 19.3.0
       react-dom: 19.3.0(react@19.3.0)
       vitest: 5.0.3(@opentelemetry/api@1.9.1)(@types/node@22.20.5)(@vitest/browser-playwright@5.0.3)(@vitest/coverage-v8@5.0.3)(@vitest/ui@5.0.3)(jsdom@30.1.1)(vite@8.3.2(@types/node@22.20.5)(esbuild@0.28.0)(jiti@2.7.0)(terser@5.48.0)(tsx@4.23.15)(yaml@2.9.0))
@@ -13750,7 +13750,7 @@ snapshots:
       '@octokit/rest': 22.0.1
       chalk: 6.0.1
       env-ci: 11.2.0
-      execa: 10.0.1
+      execa: 10.1.0
       git-url-parse: 16.1.0
       micromatch: 4.0.8
       piscina: 5.3.2
@@ -13829,7 +13829,7 @@ snapshots:
       eslint-plugin-react-compiler: 19.1.0-rc.2(eslint@10.12.0(jiti@2.7.0)(supports-color@11.0.0))(supports-color@11.0.0)
       eslint-plugin-react-hooks: 7.1.1(eslint@10.12.0(jiti@2.7.0)(supports-color@11.0.0))(supports-color@11.0.0)
       eslint-plugin-testing-library: 7.16.2(@typescript/typescript6@6.0.2)(eslint@10.12.0(jiti@2.7.0)(supports-color@11.0.0))(supports-color@11.0.0)
-      execa: 10.0.1
+      execa: 10.1.0
       git-url-parse: 16.1.0
       globals: 17.13.0
       globby: 16.2.4
@@ -17290,7 +17290,7 @@ snapshots:
     dependencies:
       eventsource-parser: 3.1.1
 
-  execa@10.0.1:
+  execa@10.1.0:
     dependencies:
       '@sindresorhus/merge-streams': 4.0.0
       figures: 6.1.0
@@ -17299,7 +17299,7 @@ snapshots:
       is-plain-obj: 4.1.0
       is-stream: 4.0.1
       npm-run-path: 6.0.0
-      pretty-ms: 9.3.0
+      pretty-ms: 9.3.1
       signal-exit: 4.1.0
       strip-final-newline: 4.0.0
       which-command: 0.1.0
@@ -17351,7 +17351,7 @@ snapshots:
       is-plain-obj: 4.1.0
       is-stream: 4.0.1
       npm-run-path: 6.0.0
-      pretty-ms: 9.3.0
+      pretty-ms: 9.3.1
       signal-exit: 4.1.0
       strip-final-newline: 4.0.0
       yoctocolors: 2.2.0
@@ -20042,7 +20042,7 @@ snapshots:
       ansi-styles: 5.2.0
       react-is: 17.0.2
 
-  pretty-ms@9.3.0:
+  pretty-ms@9.3.1:
     dependencies:
       parse-ms: 4.0.0
 
